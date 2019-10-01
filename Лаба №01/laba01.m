@@ -8,7 +8,7 @@ y = (log(exp(abs(k*x))))/(sin(7))- sqrt(abs(x - a^2)) - ((10^4)*c - b)/(cos(k*x)
 %Второе задание%
 y = 2
 A = [a b c x k y]
-A(2) = a + b
-A(1) = []
+A(1) = sum(A)
+A(2) = sum(A)
 A = sort(A, 'descend')
 n_min = min(A)
