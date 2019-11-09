@@ -1,4 +1,4 @@
-%Построение трёх графиков%
+%РџРѕСЃС‚СЂРѕРµРЅРёРµ С‚СЂС‘С… РіСЂР°С„РёРєРѕРІ%
 x = -100: pi/100 : 100;
 f1 = sin(x)+x;
 f2 = sin(x).*x;
@@ -11,13 +11,13 @@ legend('y = sin(x)+x','y = sin(x)*x','y = sin(x)+e^x');
 xlim ([-20, 20]);
 ylim ([-20, 20]);
 grid on;
-title('Графики функций');
-xlabel('Ось X');
-ylabel('Ось Y');
+title('Р“СЂР°С„РёРєРё С„СѓРЅРєС†РёР№');
+xlabel('РћСЃСЊ X');
+ylabel('РћСЃСЊ Y');
 grid off;
 hold off;
-%Второе задание%
-%Первый способ%
+%Р’С‚РѕСЂРѕРµ Р·Р°РґР°РЅРёРµ%
+%РџРµСЂРІС‹Р№ СЃРїРѕСЃРѕР±%
 figure;
 hold on;
 x = -10: 0.1 : 100;
@@ -29,11 +29,11 @@ set (h,'Interpreter','latex','fontsize',8);
 xlim ([-4, 10]);
 ylim ([-1, 1]);
 grid on;
-title('Первый способ');
-xlabel('Ось X');
-ylabel('Ось Y');
+title('РџРµСЂРІС‹Р№ СЃРїРѕСЃРѕР±');
+xlabel('РћСЃСЊ X');
+ylabel('РћСЃСЊ Y');
 grid off;
-%Второй способ%
+%Р’С‚РѕСЂРѕР№ СЃРїРѕСЃРѕР±%
 for i = 1 : length(x) 
     if (x(i) > 0)
         y(i) = exp(-x(i)).*cos(3.*x(i));
@@ -47,9 +47,9 @@ set (h,'Interpreter','latex','fontsize',8);
 xlim ([-4, 10]);
 ylim ([-1, 1]);
 grid on;
-title('Второй способ');
-xlabel('Ось X');
-ylabel('Ось Y');
+title('Р’С‚РѕСЂРѕР№ СЃРїРѕСЃРѕР±');
+xlabel('РћСЃСЊ X');
+ylabel('РћСЃСЊ Y');
 grid off;
 hold off;
 
